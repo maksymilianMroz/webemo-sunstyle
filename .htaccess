@@ -1,0 +1,11 @@
+Options FollowSymLinks
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^dist$ /dist/ [R,L]
+RewriteRule ^dist/$ /dist/views/index [NC,L]
+RewriteRule ^panel/([^\.]+)$ /dist/views/$1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteCond %{HTTP_HOST} ^webemo.pl$ [NC]
+RewriteRule ^(.*)$ http://www.webemo.pl/$1 [R=301,L]
+DirectoryIndex index.php

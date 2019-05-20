@@ -1,0 +1,83 @@
+// Dodałem tego JSONa także na moim githubie, żeby skorzystać z niego przez AJAXa przy okazji tworzenia jednej sekcji na stronie. Adres na githubie: https://github.com/maksymilianMroz/items-for-ajax/blob/master/items.json
+
+{
+    "ShopItems" : [
+        {
+            "id" : "1",
+            "name" : "Item1",
+            "description" : "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price" : "303120$",
+            "gallery" : [
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/1.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/2.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/3.jpg?raw=true"
+            ]
+        },
+        {
+            "id" : "2",
+            "name" : "Item2",
+            "description" : "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price" : "100$",
+            "gallery" : [
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerOne.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerTwo.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerThree.jpg?raw=true"
+            ]
+        },
+        {
+            "id" : "3",
+            "name" : "Item3",
+            "description" : "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price" : "200$",
+            "gallery" : [
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerOne.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerTwo.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerThree.jpg?raw=true"
+            ]
+        },
+        {
+            "id" : "4",
+            "name" : "Item4",
+            "description" : "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price" : "400$",
+            "gallery" : [
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerOne.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerTwo.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerThree.jpg?raw=true"
+            ]
+        },
+        {
+            "id" : "5",
+            "name" : "Item5",
+            "description" : "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price" : "5500$",
+            "gallery" : [
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerOne.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerTwo.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerThree.jpg?raw=true"
+            ]
+        },
+        {
+            "id" : "6",
+            "name" : "Item6",
+            "description" : "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price" : "600$",
+            "gallery" : [
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerOne.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerTwo.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerThree.jpg?raw=true"
+            ]
+        },
+        {
+            "id" : "7",
+            "name" : "Item7",
+            "description" : "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "price" : "12300$",
+            "gallery" : [
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerOne.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerTwo.jpg?raw=true", 
+                "https://github.com/maksymilianMroz/items-for-ajax/blob/master/img/numerThree.jpg?raw=true"
+            ]
+        }
+    ]
+}
